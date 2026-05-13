@@ -37,7 +37,8 @@ Valeurs attendues pour `Heure` :
 Exemple :
 
 ```txt
-https://votre-utilisateur.github.io/grist-planning-widget/```
+https://votre-utilisateur.github.io/grist-planning-widget/
+```
 
 ## Configuration
 
@@ -58,4 +59,5 @@ Add widget
 → Custom URL
 → colle l’URL GitHub Pages
 → Access: Read table
-→ Mappe Formation, Jour, Heure```
+→ Mappe Formation, Jour, Heure
+```
