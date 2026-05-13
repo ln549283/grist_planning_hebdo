@@ -37,4 +37,25 @@ Valeurs attendues pour `Heure` :
 Exemple :
 
 ```txt
-https://votre-utilisateur.github.io/grist-planning-widget/
+https://votre-utilisateur.github.io/grist-planning-widget/```
+
+## Configuration
+
+Le bouton ⚙️ Options permet de modifier :
+
+- début du matin
+- fin du matin
+- début de la pause méridienne
+- fin de la pause méridienne
+- début de l’après-midi
+- fin de l’après-midi
+
+Ensuite dans Grist :
+
+```txt
+Add widget
+→ Custom
+→ Custom URL
+→ colle l’URL GitHub Pages
+→ Access: Read table
+→ Mappe Formation, Jour, Heure```
