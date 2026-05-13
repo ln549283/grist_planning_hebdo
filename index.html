@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Planning Grist</title>
+
+  <script src="https://docs.getgrist.com/grist-plugin-api.js"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <button id="toggleOptionsBtn" onclick="toggleOptions()">⚙️ Options</button>
+
+  <div id="optionsPanel" class="options-panel" style="display:none;">
+    <h3>Configuration des horaires</h3>
+
+    <label>Matin début</label>
+    <input id="morningStart" type="time" />
+
+    <label>Matin fin</label>
+    <input id="morningEnd" type="time" />
+
+    <label>Pause début</label>
+    <input id="lunchStart" type="time" />
+
+    <label>Pause fin</label>
+    <input id="lunchEnd" type="time" />
+
+    <label>Après-midi début</label>
+    <input id="afternoonStart" type="time" />
+
+    <label>Après-midi fin</label>
+    <input id="afternoonEnd" type="time" />
+
+    <div class="actions">
+      <button onclick="saveOptions()">Enregistrer</button>
+      <button onclick="hideOptions()">Annuler</button>
+    </div>
+  </div>
+
+  <div id="planning" class="planning"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
